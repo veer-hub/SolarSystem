@@ -1,20 +1,30 @@
+# 🌌 Realistic 2D Solar System Simulation - Pygame Project
 
-INSTRUCTIONS:
+This is a minor project developed using **Python** and **Pygame** that simulates the solar system with enhanced realism and interactive controls.
 
-1. Place your realistic planet textures (e.g., earth.jpg, mars.jpg, etc.) and a transparent `sun.png` in the 'textures' folder.
-   The file names must exactly match those listed in the 'planets_info' array in main.py.
+## 🚀 Features
 
-2. Run main.py using Python 3 and ensure Pygame is installed (`pip install pygame`).
+- ✅ Realistic textures for all planets 🌍
+- ✅ Transparent PNG Sun 🌞
+- ✅ Hover-based name display for planets 🛰️
+- ✅ Click-to-zoom on any planet for a focused view 🔍
+- ✅ Adjustable simulation speed using a UI slider ⏩
 
-3. The simulation supports:
-   - Realistic textures for planets.
-   - A transparent PNG for the Sun.
-   - Hover name display.
-   - Click-to-zoom functionality.
-   - Speed control via a slider.
+## 🎮 Controls
 
-4. Controls:
-   - [Space] to Pause/Resume
-   - [ESC] to Exit Zoom Mode
-   - Use mouse to click a planet and zoom in
-   - Use the slider to control simulation speed
+- **[Space]** – Pause / Resume the simulation  
+- **[ESC]** – Exit zoom mode  
+- **Mouse Click** – Click a planet to zoom in  
+- **Slider** – Adjust simulation speed (1x–100x)
+
+## 📂 Project Structure
+
+project/
+├── main.py
+├── textures/
+│ ├── earth.png
+│ ├── mars.png
+│ ├── ...
+│ └── sun.png
+└── assets/
+└── ui_elements/
